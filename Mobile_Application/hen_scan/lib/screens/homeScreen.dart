@@ -13,7 +13,7 @@ class homeScreen extends StatelessWidget {
           textAlign: TextAlign.center,
           style: TextStyle(
             fontWeight: FontWeight.bold,
-            color: Theme.of(context).primaryColorDark,
+            color: Theme.of(context).primaryColor,
             fontSize: 25,
           ),
         ),
@@ -33,7 +33,7 @@ class homeScreen extends StatelessWidget {
               Text(
                 'HenScan is an innovative app designed for poultry health management. It utilizes fecal image analysis to predict prevalent diseases like Coccidiosis, Salmonella, Newcastle disease, or assess the health status of poultry.',
                 style: TextStyle(
-                  color: Theme.of(context).primaryColorDark,
+                  color: Theme.of(context).unselectedWidgetColor,
                   fontSize: 15,
                 ),
               ),
@@ -43,7 +43,7 @@ class homeScreen extends StatelessWidget {
               Text(
                 'How to Use ',
                 style: TextStyle(
-                  color: Theme.of(context).primaryColorDark,
+                  color: Theme.of(context).unselectedWidgetColor,
                   fontWeight: FontWeight.bold,
                   fontSize: 16,
                 ),
@@ -51,14 +51,14 @@ class homeScreen extends StatelessWidget {
               Text(
                 "1. Capture: Tap the camera icon to take a picture of the poultry's fecal sample",
                 style: TextStyle(
-                  color: Theme.of(context).primaryColorDark,
+                  color: Theme.of(context).unselectedWidgetColor,
                   fontSize: 15,
                 ),
               ),
               Text(
                 "2. Predict: Click the predict button to receive an instant analysis and prediction regarding the poultry's health condition",
                 style: TextStyle(
-                  color: Theme.of(context).primaryColorDark,
+                  color: Theme.of(context).unselectedWidgetColor,
                   fontSize: 15,
                 ),
               ),
@@ -68,7 +68,7 @@ class homeScreen extends StatelessWidget {
               Text(
                 "Simplified Simulator:",
                 style: TextStyle(
-                  color: Theme.of(context).primaryColorDark,
+                  color: Theme.of(context).unselectedWidgetColor,
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
                 ),
@@ -76,7 +76,7 @@ class homeScreen extends StatelessWidget {
               Text(
                 "The app mimics a simple camera interface. Users can click to capture an image and receive immediate predictions, offering a streamlined experience for disease detection and preventive measures.",
                 style: TextStyle(
-                  color: Theme.of(context).primaryColorDark,
+                  color: Theme.of(context).unselectedWidgetColor,
                   fontSize: 15,
                 ),
               ),
@@ -86,7 +86,7 @@ class homeScreen extends StatelessWidget {
               Text(
                 "Aim",
                 style: TextStyle(
-                  color: Theme.of(context).primaryColorDark,
+                  color: Theme.of(context).unselectedWidgetColor,
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
                 ),
@@ -94,7 +94,7 @@ class homeScreen extends StatelessWidget {
               Text(
                 "HenScan aims to empower poultry farmers and veterinarians by providing an accessible and efficient tool for early disease detection and proactive poultry health management.",
                 style: TextStyle(
-                  color: Theme.of(context).primaryColorDark,
+                  color: Theme.of(context).unselectedWidgetColor,
                   fontSize: 15,
                 ),
               ),
