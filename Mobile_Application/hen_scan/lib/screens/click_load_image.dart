@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:io';
+import 'package:hen_scan/screens/prediction.dart';
 
 import 'package:image_picker/image_picker.dart';
 
@@ -49,7 +50,9 @@ class _addImageScreenState extends State<addImageScreen> {
             ),
             ElevatedButton.icon(
               icon: const Icon(Icons.compare_outlined),
-              onPressed: () {},
+              onPressed: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>const predictionScreen()));
+              },
               label: const Text('Predict'),
             ),
           ],
@@ -168,3 +171,4 @@ class _ImageInputState extends State<ImageInput> {
     );
   }
 }
+
