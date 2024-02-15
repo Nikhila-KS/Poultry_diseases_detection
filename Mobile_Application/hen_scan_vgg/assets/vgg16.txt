@@ -1,0 +1,4 @@
+Coccidiosis
+Healthy_poultry
+Newcastle_diseases
+Salmonella
